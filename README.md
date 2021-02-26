@@ -315,3 +315,36 @@ Organización del Trabajo:
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
   poco a lo largo del -_bootcamp_.
 * [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
+
+
+--------------------------------------------------------------------------------------------
+
+PROYECTO 1: CARD VALIDATION
+
+--------------------------------------------------------------------------------------------
+
+* Un título con el nombre de tu proyecto: Tarjeta de crédito válida
+* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+Es una parte de un sitio web de compras, en la cual se puede validar la tarjeta de crédito del cliente
+en unos breves pasos, en una ventana sencilla, para evitar confusiones.
+* La imagen final de tu proyecto.
+https://user-images.githubusercontent.com/77281989/109249934-ab805680-77b6-11eb-9b4a-d7269a3e4cba.jpeg
+* Investigación UX:
+  1. Explicar quiénes son los usuarios y los objetivos en relación con el
+    producto.
+   Quise hacer una página muy genérica, en donde se pueda comprar cualquier cosa y todos puedan verificar su tarjeta, claro que los colores sugieren un público femenino o juvenil.
+
+  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
+    usuarios.
+    Al ser una página sencilla y sin muchas ventanas o publicidad al rededor, el usuario no se confundirá, ni desconfiará, al momento de colocar su número de tarjeta.
+
+  3. Luego colocarás la foto de tu primer prototipo en papel.
+https://user-images.githubusercontent.com/77281989/109252217-fbf9b300-77ba-11eb-82f2-e6ef659a11ee.jpegl.
+
+  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+   Del primer prototipo en papel, a la hora de colocarlo em digital, no era tan cómodo, ya que tenían que bajar
+   y subir la pantalla, para llenar y verificar; los colores también eran muy fuertes y el primer prototipo en Figma
+   el BG que usé era muy saturado. Al inicio era una página de venta de accesorios y lentes, pero después del fb recibido, me pareció mejor hacer una página neutra para cualquier compra.
+
+  5. Imagen del prototipo final.
+https://user-images.githubusercontent.com/77281989/109253518-fe114100-77bd-11eb-875a-a3a499917152.jpeg
