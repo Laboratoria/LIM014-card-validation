@@ -1,0 +1,101 @@
+* {
+	padding: 0;
+	margin: 0%;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #CED6E0;
+	font-family: 'Lato', sans-serif;
+}
+
+.contenido {
+	padding: 90px 150px;
+	margin: 3%;
+	float: left;
+	background-image: url("./img/BG1.png");
+	background-repeat: no-repeat;
+}
+
+.grupo .label {
+	font-size: 18px;
+	color: #14aeebe5;
+	margin-bottom: 2px;
+}
+
+.grupo .numero {
+	color: #fff;
+	font-size: 35px;
+	justify-content: center;
+}
+
+.grupo .nombre {
+	color: #fff;
+	font-size: 22px;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.grupo .tituloEx {
+	color: #14aeebe5;
+	font-size: 18px;
+
+}
+.flexbox {
+	justify-content: space-between;
+}
+
+/* Formulario Tarjeta */
+.formulario-tarjeta {
+	background: #fff;
+	width: 100%;
+	max-width: 700px;
+	padding: 30px 30px 30px 30px;
+	border-radius: 10px;
+	float: right;
+	flex-direction: column;
+}
+
+.formulario-tarjeta label {
+	color: #7d8994;
+	font-size: 16px;
+}
+
+.formulario-tarjeta input,
+.formulario-tarjeta select,
+.btn-enviar {
+	border: 2px solid #CED6E0;
+	font-size: 16px;
+	height: 50px;
+	width: 100%;
+	padding: 5px 12px;
+	border-radius: 5px;
+}
+
+.formulario-tarjeta input {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.formulario-tarjeta .flexbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario-tarjeta .expira {
+	width: 100%;
+}
+
+.formulario-tarjeta .ccv {
+	min-width: 100px;
+}
+
+.formulario-tarjeta .grupo-select {
+	width: 100%;
+	margin-right: 15px;
+	position: relative;
+}
+
+.footer {
+	margin-top: 10%;
+}

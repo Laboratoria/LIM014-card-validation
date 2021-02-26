@@ -1,14 +1,106 @@
 <!DOCTYPE html>
+<html lang="es"></html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>VALIDACION DE TARJETA</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Tangerine" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <body>
+    <div class= "encabezado" id= "info">
+      <center>
+      <br> <br>
+      <h1>AQUÍ PODREMOS VALIDAR TU COMPRA EN SIMPLES PASOS, <br>
+        SOLO LLENA LA INFORMACIÓN</h1>
+        <br>
+        <h2>¡ES TOTALMENTE SEGURO!</h2>
+      </center>
+    </div>
+    <br>
+    <div class="contenido">
+     <!-- <id="tarjeta">
+        <img src="img/BG1.png"> -->
+    
+      <div class="grupo" id="numero">
+       <p class="label">Número de Tarjeta</p>
+          <p class="numero">**** **** **** ****</p>
+      </div>
+      <div class="flexbox">
+      </div>
+      <div class="grupo" id="nombre">
+        <p class="label">Nombre Tarjeta</p>
+        <p class="nombre">Jhon Wick</p>
+      </div>
+      <div class="grupo" id="tituloEx">
+        <p class="tituloEx">Expiración</p>
+      </div>
+        <div class="grupo" id="expiracion">
+        <p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+      </div>
+    </div>
+ <form id="formulario-tarjeta" class="formulario-tarjeta">
+      <div class="grupo">
+        <label>Número Tarjeta</label>
+        <input type="text" id="inputNumero" maxlength="16" autocomplete="off">
+      </div>
+      <div class="grupo">
+        <label for="inputNombre">Nombre</label>
+        <input input type="text" id="inputNombre" maxlength="20" autocomplete="off">
+      </div>
+      <div class="flexbox">
+        <div class="grupo expira">
+          <label for="selectMes">Expiracion</label>
+          <div class="flexbox">
+            <div class="grupo-select">
+              <select name="mes" id="selectMes">
+                <option disabled="" selected="">Mes</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+
+            </div>
+            <div class="grupo-select">
+              <select name="year" id="selectYear">
+                <option disabled="" selected="">Año</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+              </select>
+            </div>
+          </div>
+        </div>
+  
+        <div class="grupo ccv">
+          <label for="inputCCV">CCV</label>
+          <input type="text" id="inputCCV" maxlength="3">
+        </div>
+      </div>
+      <button id="btn-enviar">Enviar</button>
+ </form>
+
+<div class= "footer" id= "foot">
+      <footer>
+        <center>COMPRA SEGURA Y VERIFICADA</center>
+      </footer>
+</div>
+    <script type ="module" src="index.js"></script>
   </body>
 </html>
